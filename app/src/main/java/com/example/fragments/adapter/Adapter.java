@@ -63,4 +63,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         // notify item added by position
         notifyItemInserted(position);
     }
+
+    /*
+    *
+    * The fetch command can be done at any point before the merge, i.e., you can swap the order of the fetch and the checkout, because fetch just goes over to the named remote (origin) and says to it: "gimme everything you have that I don't", i.e., all commits on all branches. They get copied to your repository, but named origin/branch for any branch named branch on the remote.
+
+At this point you can use any viewer (git log, gitk, etc) to see "what they have" that you don't, and vice versa. Sometimes this is only useful for Warm Fuzzy Feelings ("ah, yes, that is in fact what I want") and sometimes it is useful for changing strategies entirely ("whoa, I don't want THAT stuff yet").
+
+Finally, the merge command takes the given commit, which you can name as origin/master, and does whatever it takes to bring in that commit and its ancestors, to whatever branch you are on when you run the merge. You can insert 
+    *
+    * */
 }

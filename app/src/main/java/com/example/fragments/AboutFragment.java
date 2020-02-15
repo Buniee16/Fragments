@@ -15,4 +15,30 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup viewGroup, Bundle savedInstanceState){
         return inflater.inflate(R.layout.aboutlayout, viewGroup, false);
     }
+
+    /*
+    *
+    *
+    * slkKAHSdlkahsdlkashd;ask ;akshd ;kadhs ;aksd ha;k dh;ask dha' dahsd ;asdha;d kha;sdh
+    * as
+    *  dhas
+    * d has da
+    * sh d
+    * a sd
+    * asd a
+    * s d
+    * asdh a
+    * sdp
+    * wqadh
+    * as[c
+    * a
+    *
+    * */
+
+
+
+
+
+
+
 }
